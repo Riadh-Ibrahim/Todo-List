@@ -33,7 +33,7 @@ function addTodo() {
   li.appendChild(todoSpan);
   
   const deleteButton = document.createElement('button');
-  deleteButton.textContent = 'Supprimer';
+  deleteButton.textContent = 'Delete';
   deleteButton.classList.add('delete-button');
   deleteButton.addEventListener('click', deleteTodo);
   li.appendChild(deleteButton);
