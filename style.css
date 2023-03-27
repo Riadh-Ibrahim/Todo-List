@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.titre{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 5% 5%;
+    color: #fe0101fe;
+}
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+  
+.input-label{
+    margin: 10px 5px 0 0;
+    color: #160909;
+    font-weight: bold;
+}
+  
+.input-texte{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+.bouton {
+    padding: 10px;
+    margin-top: 20px;
+    background: linear-gradient(#1105fc, #bbb6dd);
+    color: #fff;
+    cursor: pointer;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    border: #0d00ff;
+}
+
+.bouton:disabled {
+    cursor: not-allowed;
+}
+  
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 2% 0;
+}
+  
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    font-size: 14px;
+    font-weight: bold;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+  
+.todo-list li button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 15%;
+    height: 35px;
+}
+  
+.todo-list li button:hover {
+    background-color: #d32f2f;
+}
+  
